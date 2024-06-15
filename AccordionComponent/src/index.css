@@ -1,0 +1,51 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.accordion{
+    width: 500px;
+    margin-top: 1rem;
+}
+
+.accordion-item{
+    background-color: #481fa8;
+    margin-bottom: 10px ;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.title{
+    color: beige;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content{
+    color: antiquewhite;
+    height: auto;
+
+}
+
+.click-btn{
+    font-size: 23px;
+    padding: 10px 0px;
+}
+
+.multi-select-btn{
+    font-size: 18px;
+    background-color: #481fa8;
+    color: aliceblue;
+    padding: 0.7rem;
+    border: none;
+    border-radius:10px;
+}
