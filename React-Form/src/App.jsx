@@ -6,9 +6,10 @@ export default function App() {
     firstname:'',
     lastname:'',
     email:'',
+    comments:''
 
   })
-
+  console.log(formData)
   function changeHandler(ev){
     setFormData(prevformData=>{
       return {...prevformData,
@@ -33,7 +34,10 @@ export default function App() {
         value={formData.email}
         />
 
-        
+        <textarea placeholder='Comments' 
+          value={formData.comments}
+        className='px-5 rounded-lg' onChange={changeHandler}/>
+
       </form>
 
     
